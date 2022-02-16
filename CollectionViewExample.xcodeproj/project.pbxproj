@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E645C10B27BCEA860021BBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645C10A27BCEA860021BBBB /* AppDelegate.swift */; };
 		E645C10D27BCEA860021BBBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645C10C27BCEA860021BBBB /* SceneDelegate.swift */; };
-		E645C10F27BCEA860021BBBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645C10E27BCEA860021BBBB /* ViewController.swift */; };
+		E645C10F27BCEA860021BBBB /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645C10E27BCEA860021BBBB /* ColorViewController.swift */; };
 		E645C11227BCEA860021BBBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E645C11027BCEA860021BBBB /* Main.storyboard */; };
 		E645C11427BCEA880021BBBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E645C11327BCEA880021BBBB /* Assets.xcassets */; };
 		E645C11727BCEA880021BBBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E645C11527BCEA880021BBBB /* LaunchScreen.storyboard */; };
+		E645C11F27BCEC920021BBBB /* ColorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E645C11E27BCEC920021BBBB /* ColorViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E645C10727BCEA860021BBBB /* CollectionViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E645C10A27BCEA860021BBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E645C10C27BCEA860021BBBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E645C10E27BCEA860021BBBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E645C10E27BCEA860021BBBB /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		E645C11127BCEA860021BBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E645C11327BCEA880021BBBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E645C11627BCEA880021BBBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E645C11827BCEA880021BBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E645C11E27BCEC920021BBBB /* ColorViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				E645C10A27BCEA860021BBBB /* AppDelegate.swift */,
 				E645C10C27BCEA860021BBBB /* SceneDelegate.swift */,
-				E645C10E27BCEA860021BBBB /* ViewController.swift */,
+				E645C11E27BCEC920021BBBB /* ColorViewCell.swift */,
+				E645C10E27BCEA860021BBBB /* ColorViewController.swift */,
 				E645C11027BCEA860021BBBB /* Main.storyboard */,
 				E645C11327BCEA880021BBBB /* Assets.xcassets */,
 				E645C11527BCEA880021BBBB /* LaunchScreen.storyboard */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E645C10F27BCEA860021BBBB /* ViewController.swift in Sources */,
+				E645C11F27BCEC920021BBBB /* ColorViewCell.swift in Sources */,
+				E645C10F27BCEA860021BBBB /* ColorViewController.swift in Sources */,
 				E645C10B27BCEA860021BBBB /* AppDelegate.swift in Sources */,
 				E645C10D27BCEA860021BBBB /* SceneDelegate.swift in Sources */,
 			);
