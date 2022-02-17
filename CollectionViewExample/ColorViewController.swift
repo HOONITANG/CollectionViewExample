@@ -24,10 +24,16 @@ class ColorViewController: UICollectionViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
         collectionView.register(ColorViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-        
+        // 여러개 선택하기
+        collectionView.allowsMultipleSelection = true
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        // 기본 선택 위치 설정
+        let selectedIndexPath = IndexPath(row: 0, section: 0)
+        collectionView.selectItem(at: selectedIndexPath, animated: true, scrollPosition: .left)
     }
 }
 
@@ -50,6 +56,14 @@ extension ColorViewController {
     }
 }
 
+// MARK: UICollectionViewDelegate
+extension ColorViewController {
+    
+    /// cell 데이터가 몇 개인가
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+    }
+}
 
 // MARK: - UIColor
 /// Hex Code Color을 사용하게 하는 함수
